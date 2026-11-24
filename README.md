@@ -6,8 +6,8 @@ This repository contains two graphs that improve lower bounds on Ramsey numbers.
 
 | Ramsey number | previous bound | new bound | graph |
 |---|---|---|---|
-| R(4,21) | ≥ 244 (Google Research, 23 Nov 2026); ≥ 242 in Radziszowski's survey DS1.18 | **≥ 254** | 253 vertices |
-| R(8,12) | ≥ 511 (Google Research, 23 Nov 2026) | **≥ 514** | 513 vertices |
+| R(4,21) | ≥ 244 (Google Research, May 2026); ≥ 242 in Radziszowski's survey DS1.18 | **≥ 254** | 253 vertices |
+| R(8,12) | ≥ 511 (Google Research, October 2026) | **≥ 514** | 513 vertices |
 
 ## Files
 
@@ -19,7 +19,7 @@ This repository contains two graphs that improve lower bounds on Ramsey numbers.
 
 ## Provenance
 
-Both graphs extend graphs published by Google Research in `google-research/ramsey_number_bounds/improved_bounds/` (commit ee4298226f21649f45c0d0427f7c0f3f682d2a20; Apache License 2.0, see `NOTICE`):
+Both graphs extend graphs published by Google Research in `google-research/ramsey_number_bounds/improved_bounds/` (Apache License 2.0, see `NOTICE`): `R(4,21)>=244.txt` was added on 11 May 2026 (commit 351bb65) and `R(8, 12) >= 511.txt` on 22 October 2026 (commit 0d94f8c).
 
 - Restricted to its first 243 vertices, the R(4,21) graph is exactly the graph in `R(4,21)>=244.txt`.
 - Restricted to its first 510 vertices, the R(8,12) graph is exactly the graph in `R(8, 12) >= 511.txt`.
