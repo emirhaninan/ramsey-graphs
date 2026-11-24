@@ -1,0 +1,7 @@
+The graphs in graphs/ extend graphs from google-research/google-research,
+ramsey_number_bounds/improved_bounds/ (commit ee4298226f21649f45c0d0427f7c0f3f682d2a20),
+Copyright 2026 Google LLC, licensed under the Apache License, Version 2.0 (see LICENSE):
+  - the first 243 vertices of the R(4,21) graphs are the graph in R(4,21)>=244.txt;
+  - the first 510 vertices of the R(8,12) graph are the graph in "R(8, 12) >= 511.txt".
+
+The added vertices and the code in src/ are released under the same license.
