@@ -49,7 +49,7 @@ Degrees of the added vertices: 35, 49, 47, 48, 48, 47, 44, 47, 42, 43.
 
 The loop ends when no violation exists. Degrees of the added vertices: 247, 250, 247.
 
-The search strategy was conceived by the author and the search code developed through many a back-and-forth with Claude.
+The search strategy was conceived by the author and the search code developed through many a back and forth with Claude.
 
 ## Verification
 
