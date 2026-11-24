@@ -1,0 +1,13 @@
+{
+  "title": "Ramsey graphs: R(4,21) ≥ 254 and R(8,12) ≥ 514",
+  "description": "Two graphs that improve lower bounds on Ramsey numbers: a 253-vertex graph with no K4 and no independent set of size 21 (R(4,21) ≥ 254), and a 513-vertex graph with no K8 and no independent set of size 12 (R(8,12) ≥ 514). Both extend graphs published by Google Research (google-research/ramsey_number_bounds) by SAT-based vertex extension. Includes the extension code and two independent exact checkers.",
+  "creators": [
+    {"name": "Inan, Emirhan", "affiliation": "Boğaziçi University"}
+  ],
+  "upload_type": "dataset",
+  "license": "Apache-2.0",
+  "keywords": ["Ramsey numbers", "Ramsey theory", "graph theory", "combinatorics", "lower bounds", "SAT"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/google-research/google-research/tree/master/ramsey_number_bounds", "relation": "isDerivedFrom", "resource_type": "dataset"}
+  ]
+}

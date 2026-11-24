@@ -10,7 +10,7 @@ This repository contains two graphs that improve lower bounds on Ramsey numbers.
 ## Files
 
 - `graphs/r4_21_n253.txt`, `graphs/r8_12_n513.txt`: the graphs, one adjacency-matrix row per line.
-- `graphs/R(4,21)>=254.txt`, `graphs/R(8,12)>=514.txt`: the same graphs in the format of Google's `improved_bounds` folder.
+- `graphs/R(4,21) >= 254.txt`, `graphs/R(8,12) >= 514.txt`: the same graphs in the format of Google's `improved_bounds` folder.
 - `graphs/r4_21_n244.txt`, `graphs/r4_21_n252.txt`: intermediate R(4,21) graphs; `graphs/r8_12_n512.txt`: intermediate R(8,12) graph.
 - `src/`: extension code (`extend.py`, `extend2.py`, `swap_ext.py`, `ext_lazy.py` with `libramsey.c`) and two independent exact checkers (`kenum.c`, `verify2.c`).
 - `verify.sh`: builds and runs both checkers.
@@ -64,6 +64,6 @@ A third, separately written exact checker confirms both graphs:
 - R(4,21): clique number 3, independence number 20. All three checkers agree.
 - R(8,12): no 8-clique, and no independent 12-set. `kenum` agrees.
 
-Google's `verify_bounds.ipynb`, run unchanged, passes on `graphs/R(4,21)>=254.txt`.
+Google's `verify_bounds.ipynb`, run unchanged, passes on `graphs/R(4,21) >= 254.txt`.
 
 Requirements: gcc. To rerun the searches you also need Python 3 with `python-sat`; for `ext_lazy.py`, also build `bin/libramsey.so` with `gcc -O3 -shared -fPIC -o bin/libramsey.so src/libramsey.c`.
