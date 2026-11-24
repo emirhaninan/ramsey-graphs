@@ -28,7 +28,7 @@ The contribution here is the added vertices.
 
 ## Method
 
-A new vertex with neighbourhood N keeps a graph free of s-cliques and of independent t-sets exactly when:
+A new vertex with neighborhood N keeps a graph free of s-cliques and of independent t-sets exactly when:
 
 1. N contains no (s−1)-clique, and
 2. N meets every independent (t−1)-set.
@@ -37,7 +37,7 @@ Finding N is a SAT problem with one variable per vertex.
 
 **R(4,21), 243 → 253.** The triangles and the independent 20-sets are few enough to list in full, one clause each.
 - `extend.py` performs the first step.
-- `extend2.py` performs the next eight steps. It adds cardinality constraints so that each new vertex gets as many neighbours as possible, which slows the growth of the number of independent 20-sets.
+- `extend2.py` performs the next eight steps. It adds cardinality constraints so that each new vertex gets as many neighbors as possible, which slows the growth of the number of independent 20-sets.
 - `swap_ext.py` performs the last step. The last-added vertex is replaced by two adjacent vertices u, v: N(u) and N(v) are each triangle-free and each meets every independent 20-set, and N(u) ∩ N(v) contains no edge.
 
 Degrees of the added vertices: 35, 49, 47, 48, 48, 47, 44, 47, 42, 43.
@@ -59,7 +59,7 @@ The search strategy was conceived by the author and the search code developed th
 ```
 
 `verify.sh` runs two independent exact programs:
-- `kenum`: bitset branch-and-bound with a colouring bound;
+- `kenum`: bitset branch-and-bound with a coloring bound;
 - `verify2`: an implementation of Östergård's algorithm.
 
 A third, separately written exact checker confirms both graphs:
