@@ -1,5 +1,7 @@
 # New lower bounds: R(4,21) ≥ 254 and R(8,12) ≥ 514
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24515971.svg)](https://doi.org/10.5281/zenodo.24515971)
+
 This repository contains two graphs that improve lower bounds on Ramsey numbers. A graph on n vertices with no s-clique and no independent set of size t proves R(s,t) ≥ n+1.
 
 | Ramsey number | previous bound | new bound | graph |
@@ -67,3 +69,7 @@ A third, separately written exact checker confirms both graphs:
 Google's `verify_bounds.ipynb`, run unchanged, passes on `graphs/R(4,21) >= 254.txt`.
 
 Requirements: gcc. To rerun the searches you also need Python 3 with `python-sat`; for `ext_lazy.py`, also build `bin/libramsey.so` with `gcc -O3 -shared -fPIC -o bin/libramsey.so src/libramsey.c`.
+
+## Citation
+
+Emirhan Inan, *Ramsey graphs: R(4,21) ≥ 254 and R(8,12) ≥ 514* (2026). https://doi.org/10.5281/zenodo.24515971

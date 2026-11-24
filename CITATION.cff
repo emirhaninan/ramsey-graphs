@@ -6,6 +6,7 @@ authors:
   - family-names: Inan
     given-names: Emirhan
     affiliation: "Boğaziçi University"
+doi: 10.5281/zenodo.24515971
 license: Apache-2.0
 repository-code: "https://github.com/emirhaninan/ramsey-graphs"
 date-released: 2026-11-24
