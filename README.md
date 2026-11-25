@@ -1,13 +1,15 @@
-# New lower bounds: R(4,21) ≥ 254 and R(8,12) ≥ 514
+# A new lower bound R(4,21) ≥ 254, and an R(8,12) construction
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24515971.svg)](https://doi.org/10.5281/zenodo.24515971)
 
-This repository contains two graphs that improve lower bounds on Ramsey numbers. A graph on n vertices with no s-clique and no independent set of size t proves R(s,t) ≥ n+1.
+This repository contains two Ramsey graphs. A graph on n vertices with no s-clique and no independent set of size t proves R(s,t) ≥ n+1.
 
-| Ramsey number | previous bound | new bound | graph |
+| Ramsey number | previous bound | this repository | graph |
 |---|---|---|---|
-| R(4,21) | ≥ 244 (Google Research, May 2026); ≥ 242 in Radziszowski's survey DS1.18 | **≥ 254** | 253 vertices |
-| R(8,12) | ≥ 511 (Google Research, October 2026) | **≥ 514** | 513 vertices |
+| R(4,21) | ≥ 244 (Google Research, May 2026); ≥ 242 in Radziszowski's survey DS1.18 | **≥ 254** (new lower bound) | 253 vertices |
+| R(8,12) | ≥ 511 (Google Research, October 2026) | ≥ 514 | 513 vertices |
+
+The R(8,12) graph is not a record: A. Canli had already obtained R(8,12) ≥ 523 (6 Nov 2026, [quantavane-ramsey-records](https://github.com/arhancanli/quantavane-ramsey-records)), also starting from the Google Research graph. It is kept here as an independent construction by a different method (exact lazy SAT extension).
 
 ## Files
 
